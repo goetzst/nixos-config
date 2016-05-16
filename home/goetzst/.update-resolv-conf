@@ -1,0 +1,3 @@
+echo "nameserver 46.227.67.134" > /etc/resolv.conf
+echo "nameserver 46.227.67.135" >> /etc/resolv.conf
+route add 149.210.147.184 gw 192.168.0.1

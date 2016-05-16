@@ -1,0 +1,31 @@
+# max min peers
+min_peers = 1
+max_peers = 100
+
+# max uploads
+max_uploads = 4
+
+# down and up rates
+download_rate = 0
+upload_rate = 50
+
+# downloadDir
+directory = /mnt/anime/film
+
+# session dir
+session = /home/Sotaro/.rtorrent/.session
+
+# watch dir
+schedule = watch_directory,5,5,load_start=/home/Sotaro/Downloads/*.torrent
+
+# port stuff
+port_range = 60125-64125
+port_random = yes
+
+# check hash of finished torrents
+check_hash = yes
+
+# encryption stuff
+encryption = allow_incoming,try_outgoing,enable_retry
+
+peer_exchange = yes

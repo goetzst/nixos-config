@@ -1,0 +1,74 @@
+keycode  10 = 1 exclam onesuperior onesubscript
+keycode  11 = 2 at twosuperior twosubscript
+keycode  12 = 3 numbersign threesuperior threesubscript
+keycode  13 = 4 dollar foursuperior foursubscript
+keycode  14 = 5 percent fivesuperior fivesubscript
+keycode  15 = 6 asciicircum sixsuperior sixsubscript
+keycode  16 = 7 ampersand sevensuperior sevensubscript
+keycode  17 = 8 asterisk Greek_lamda eightsubscript
+keycode  18 = 9 parenleft leftsinglequotemark ninesubscript
+keycode  19 = 0 parenright rightsinglequotemark zerosubscript
+keycode  20 = minus underscore plusminus approxeq
+keycode  21 = equal plus multiply division
+
+keycode  24 = q Q aacute Aacute
+keycode  25 = w W Greek_omega Greek_OMEGA
+keycode  26 = e E eacute Eacute
+keycode  27 = r R U211A U211D
+keycode  28 = t T Greek_theta U22A4
+keycode  29 = y Y uacute Uacute
+keycode  30 = u U udiaeresis Udiaeresis
+keycode  31 = i I iacute Iacute
+keycode  32 = o O odiaeresis Odiaeresis
+keycode  33 = p P oacute Oacute
+keycode  34 = bracketleft braceleft guillemotleft U27E8
+keycode  35 = bracketright braceright guillemotright U27E9
+
+keycode  38 = a A adiaeresis Adiaeresis
+keycode  39 = s S ssharp U1E9E
+keycode  40 = d D eth ETH
+keycode  41 = f F thorn THORN
+keycode  42 = g G Greek_gamma Greek_GAMMA
+keycode  43 = h H U2192 U21D2
+keycode  44 = j J aring Aring
+keycode  45 = k K U00F8 U00D8
+keycode  46 = l L omacron umacron
+keycode  47 = semicolon colon leftdoublequotemark degree
+keycode  48 = apostrophe quotedbl rightdoublequotemark U207A
+keycode  49 = grave asciitilde U2200 U2245
+keycode  51 = backslash bar Greek_pi Greek_PI
+keycode  52 = z Z yacute Yacute
+keycode  53 = x X Greek_alpha ediaeresis
+keycode  54 = c C U2124 U2102
+keycode  55 = v V ae AE
+keycode  56 = b B U21D4 U22A5
+keycode  57 = n N U2115 U2135
+keycode  58 = m M Greek_mu Greek_epsilon
+keycode  59 = comma less notequal lessthanequal
+keycode  60 = period greater U00B7 greaterthanequal
+keycode  61 = slash question U2205 U2218
+
+keycode  65 = space space U200B U00A0
+keycode  66 = Caps_Lock NoSymbol Caps_Lock
+keycode  67 = U2286 U2288 U2282 U2284 F1 F1 XF86Switch_VT_1
+keycode  68 = U2287 U2289 U2283 U2285 F2 F2 XF86Switch_VT_2
+keycode  69 = U2229 U222A U2237 U2254 F3 F3 XF86Switch_VT_3
+keycode  70 = U2208 U2209 U2203 U2204 F4 F4 XF86Switch_VT_4
+keycode  71 = F5 F5 F1 F1 F5 F5 XF86Switch_VT_5
+keycode  72 = F6 F6 F2 F2 F10 F10 F10 F10 F10 F10
+keycode  73 = F7 F7 F3 F3 F7 F7 XF86Switch_VT_7
+keycode  74 = F8 F8 F4 F4 F8 F8 XF86Switch_VT_8
+keycode  75 = EuroSign cent F9 F9 F9 F9 XF86Switch_VT_9
+keycode  76 = yen U200F F10 F10 F10 F10 XF86Switch_VT_10
+
+keycode  94 = backslash bar U2227 U2228
+keycode  95 = sterling U222B F11 U1F4F7 F11 F11 XF86Switch_VT_11
+keycode  96 = U2603 U221A Greek_SIGMA U16A6 F12 F12 XF86Switch_VT_12
+
+keycode 108 = Mode_switch Meta_R Mode_switch Meta_R
+keycode 111 = Up NoSymbol U2191 U21D1
+keycode 114 = Right NoSymbol U2192 U21D2
+keycode 113 = Left NoSymbol U2190 U21D0
+keycode 116 = Down NoSymbol U2193 U21D3
+
+keysym Caps_Lock = Mode_switch

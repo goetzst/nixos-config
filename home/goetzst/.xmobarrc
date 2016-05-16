@@ -1,0 +1,12 @@
+Config { font = "xft:Terminus-13,DejaVu Sans Mono:pixelsize=13,Kochi Gothic:pixelsize=13"
+       , bgColor = "black"
+       , fgColor = "grey"
+       , position = Static { xpos = 0, ypos = 0, width = 1920, height = 32 }
+       , commands = [ Run Cpu ["-L","5","-H","50","--normal","#85c600","--high","#E03C52"] 10
+                    , Run Memory ["-t","Mem: <usedratio>%"] 10
+                    , Run Date "%Y %b %d (%a) %H:%M:%S %Z" "date" 10
+                    , Run Network "enp3s0" ["-t", "Down: <fc=#7FC5C6><rx></fc> kB/s | Up: <fc=#ffa600><tx></fc> kB/s"] 10
+                    , Run StdinReader
+                    ]
+       , template = "%StdinReader% }{ %enp3s0% | %cpu% | <fc=#85919b>%memory%</fc>   <fc=#DACCBB>%date%</fc>"
+       }
