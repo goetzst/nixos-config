@@ -67,6 +67,7 @@
 	i3lock
 	openvpn
 	networkmanager_openvpn
+	texlive.combined.scheme-medium
 	traceroute
 	unzip
   	wget
@@ -114,8 +115,9 @@
 	imagemagick
 	keepassx2
 	libreoffice
-	scrot
+	octave
 	rtorrent
+	scrot
 	teamspeak_client
 	texstudio
 	thunderbird
