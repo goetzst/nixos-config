@@ -1,0 +1,16 @@
+" sets
+set noautofocus
+
+" only need ddg as search engine
+let defaultengine = 'duckduckgo'
+let completionengines = ['duckduckgo']
+
+" mappings
+map <r> reloadTabUncached
+
+" use .cvimrc file
+let configpath = '/home/goetzst/.cvimrc'
+set localconfig
+" Add let configpath = '/path/to/your/.cvimrc' and set localconfig to your
+" local cvimrc file.
+" In browser, :source /path/to/your/.cvimrc
