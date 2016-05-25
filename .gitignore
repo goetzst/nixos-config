@@ -77,7 +77,6 @@ home/goetzst/.gitconfig
 home/goetzst/.histfile
 home/goetzst/.local/
 home/goetzst/.ghc/
-home/goetzst/.mozilla/
 home/goetzst/.nix-defexpr/
 home/goetzst/.nix-profile
 home/goetzst/.pentadactyl/
@@ -105,3 +104,12 @@ home/goetzst/.xmonad/xmonadSave.hs
 home/goetzst/.Xauthority
 home/goetzst/.fehbg
 home/goetzst/.octave_hist
+
+home/goetzst/.mozilla/
+!home/goetzst/.mozilla/
+home/goetzst/.mozilla/*
+!home/goetzst/.mozilla/firefox
+home/goetzst/.mozilla/firefox/*
+!home/goetzst/.mozilla/firefox/9lm3xxgx.default
+home/goetzst/.mozilla/firefox/9lm3xxgx.default/*
+!home/goetzst/.mozilla/firefox/9lm3xxgx.default/prefs.js
