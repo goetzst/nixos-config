@@ -41,7 +41,7 @@ main = do
           spawn "urxvt"
           spawn "urxvt"
           spawn "urxvt"
-          spawn "vivaldi"
+          spawn "firefox"
           spawn "chromium"
           spawn "thunderbird"
           spawn "ts3client"
