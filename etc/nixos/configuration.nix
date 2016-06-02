@@ -121,7 +121,6 @@
 	thunderbird
         #texmaker
 	neovim
-	vim
 	zathura
 	
   ];
