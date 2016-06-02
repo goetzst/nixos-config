@@ -59,7 +59,6 @@
   time.timeZone = "Europe/Berlin";
 
   #packages as a base for the system
-  nixpkgs.config.allowUnfree = true;
   environment.systemPackages = with pkgs; [
 	# Miscellaneous
 	gitAndTools.gitFull
@@ -84,7 +83,6 @@
 	# browser
 	chromium
 	firefox
-	vivaldi
 
 	# shell+terminal stuff
 	zsh
@@ -122,6 +120,7 @@
 	texstudio
 	thunderbird
         #texmaker
+	neovim
 	vim
 	zathura
 	
