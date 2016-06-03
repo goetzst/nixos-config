@@ -15,10 +15,9 @@ noremap <M-K> <C-w>K
 noremap <M-L> <C-w>L
 
 noremap <Leader>s <C-w>s
-noremap <Leader>n :nohls<CR>:HierClear<CR>
-noremap <Leader>b :make<CR>
 noremap <Leader>r :checktime<CR>zuz
 noremap <Leader>u :UndotreeToggle<CR>
+noremap <Leader>n :NERDTreeToggle<CR>
 
 noremap Cn :cn<CR>
 noremap Cp :cp<CR>
@@ -46,7 +45,6 @@ set timeoutlen=500
 set modeline
 set autochdir
 set autowrite
-set clipboard=unnamed
 
 set expandtab
 set shiftwidth=4
@@ -64,18 +62,14 @@ set sessionoptions-=folds
 " ctags
 noremap <C-d> <C-]>
 set tags=tags;
-"let g:easytags_auto_highlight = 0
-"let g:easytags_dynamic_files = 2
-"let g:easytags_always_enabled = 1
-"let g:easytags_async = 1
 
 " undotree
 set undofile
 let g:undotree_WindowLayout=2
 let g:undotree_SetFocusWhenToggle=1
 
-" ctrlp
-let g:ctrlp_user_command = ['.git', 'cd %s && git ls-files -co --exclude-standard']
+" nerdtree
+let NERDTreeShowHidden=1
 
 set cc=120
 set number
@@ -116,18 +110,11 @@ highlight VertSplit cterm=none ctermbg=16 ctermfg=16
 highlight SyntaxError cterm=bold ctermfg=15 ctermbg=13
 highlight SyntaxWarn cterm=bold ctermfg=11 ctermbg=8
 highlight link SyntaxInfo Normal
-let g:hier_highlight_group_qf = 'SyntaxError'
-let g:hier_highlight_group_qfw = 'SyntaxWarn'
-let g:hier_highlight_group_qfi = 'SyntaxInfo'
 
 " diff highlighting
 highlight DiffAdd ctermbg=22
-highlight DiffDelete ctermbg=52 " foo
+highlight DiffDelete ctermbg=52
 highlight DiffChange ctermbg=17
-
-" misc stuff
-let g:localvimrc_persistent = 1
-let g:localvimrc_persistence_file = expand('$HOME') . '/.vim/lvimrc'
 
 " match extra whitespace
 highlight ExtraWhitespace ctermbg=darkgreen guibg=darkgreen
@@ -141,8 +128,8 @@ command -bang -bar -nargs=? -complete=file -range=% Write <line1>,<line2>w<bang>
 
 set autoindent
 
-" execute pathogen#infect()
-" filetype plugin indent on
+execute pathogen#infect()
+filetype plugin indent on
 
 " extra filetypes
 au BufNewFile,BufRead *.weechatlog setf weechatlog
