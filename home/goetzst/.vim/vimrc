@@ -47,8 +47,8 @@ set autochdir
 set autowrite
 
 set expandtab
-set shiftwidth=4
-set softtabstop=4
+set shiftwidth=8
+set softtabstop=8
 
 " code folding
 set foldmethod=syntax
