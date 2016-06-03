@@ -25,21 +25,19 @@ unsetopt beep alwayslastprompt
 bindkey -e
 
 # Custom aliases
-#if [ -x /usr/bin/dircolors ]; then
-    test -r ~/.dircolors && eval "$(dircolors -b ~/.dircolors)" || eval "$(dircolors -b)"
-    alias vim='nvim'
-    alias ls='ls --color=auto'
-    alias dir='dir --color=auto'
-    alias vdir='vdir --color=auto'
-    alias diff='colordiff'
+test -r ~/.dircolors && eval "$(dircolors -b ~/.dircolors)" || eval "$(dircolors -b)"
+alias vim='nvim'
+alias ls='ls --color=auto'
+alias dir='dir --color=auto'
+alias vdir='vdir --color=auto'
+alias diff='colordiff'
 
-    alias grep='grep -i --color=auto'
-    alias fgrep='fgrep -i --color=auto'
-    alias egrep='egrep -i --color=auto'
+alias grep='grep -i --color=auto'
+alias fgrep='fgrep -i --color=auto'
+alias egrep='egrep -i --color=auto'
 
-    alias lt='ls --sort=time -r'
-    alias la='ls -a'
-#fi
+alias lt='ls --sort=time -r'
+alias la='ls -a'
 
 #source ~/.aliases
 # Git prompt

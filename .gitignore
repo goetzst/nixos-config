@@ -87,6 +87,7 @@ home/goetzst/.ssh/
 home/goetzst/.thunderbird/
 home/goetzst/.ts3client/
 home/goetzst/.vim/bundle
+home/goetzst/.vim/autoload
 home/goetzst/.vim/.netrwhist
 home/goetzst/.vim/init.vim
 home/goetzst/.viminfo
