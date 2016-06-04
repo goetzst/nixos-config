@@ -71,4 +71,4 @@ keycode 114 = Right NoSymbol U2192 U21D2
 keycode 113 = Left NoSymbol U2190 U21D0
 keycode 116 = Down NoSymbol U2193 U21D3
 
-keysym Caps_Lock = Mode_switch
+keysym Caps_Lock = Escape
