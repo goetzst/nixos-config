@@ -103,13 +103,11 @@ extraKeys =
      ]
 
 friendlyNames = [
-        (1, "mpv"),
-        (2, "IRC+teamspeak"),
+        (1, "mnt"),
+        (2, "ghci+ts"),
         (3, "urxvt"),
         (4, "FF"),
-        (5, "Streams:Chrome"),
-        (6, "Programming"),
-        (7, "Torrent"),
+        (5, "Chromium"),
         (8, "ThunderBird")
     ]
 
