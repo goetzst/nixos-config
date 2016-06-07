@@ -18,6 +18,7 @@ noremap <Leader>s <C-w>s
 noremap <Leader>r :checktime<CR>zuz
 noremap <Leader>u :UndotreeToggle<CR>
 noremap <Leader>n :NERDTreeToggle<CR>
+noremap <Leader>f <C-C>za
 
 noremap Cn :cn<CR>
 noremap Cp :cp<CR>
@@ -50,6 +51,11 @@ set expandtab
 set shiftwidth=8
 set softtabstop=8
 
+"""PLUGINSETTINGS
+" airline
+let g:airline#extensions#tabline#enabled = 1
+let g:airline#extensions#tabline#show_buffers = 0
+
 " code folding
 set foldmethod=syntax
 set foldnestmax=1
@@ -68,9 +74,27 @@ set undofile
 let g:undotree_WindowLayout=2
 let g:undotree_SetFocusWhenToggle=1
 
+" multiple cursors
+let g:multi_cursor_use_default_mapping=0
+let g:multi_cursor_next_key='<C-m>'
+let g:multi_cursor_prev_key='<C-i>'
+let g:multi_cursor_skip_key='<C-o>'
+let g:multi_cursor_quit_key='<Esc>'
+
 " nerdtree
 let NERDTreeShowHidden=1
 
+" syntastic
+set statusline+=%#warningmsg#
+set statusline+=%{SyntasticStatuslineFlag()}
+set statusline+=%*
+
+let g:syntastic_always_populate_loc_list = 1
+let g:syntastic_auto_loc_list = 1
+let g:syntastic_check_on_open = 1
+let g:syntastic_check_on_wq = 0
+
+" settings
 set cc=120
 set number
 set numberwidth=1
