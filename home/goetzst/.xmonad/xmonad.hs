@@ -81,7 +81,7 @@ extraKeys =
   , ((mod4Mask .|. shiftMask,	xK_c), kill) --quit focused window
 
    -- never terminate X please
-  , ((mod4Mask .|. shiftMask, 	xK_q), return ())
+  , ((mod4Mask .|. shiftMask,	xK_q), return ())
 
   , ((mod4Mask,			xK_r), spawn "$(yeganesh -x -- -fn 'Terminus-24' -i -nf '#daccbb' -nb '#0e1112')")
 
@@ -91,8 +91,6 @@ extraKeys =
    -- reset the mouse cursor
   , ((mod4Mask,			xK_Escape), spawn "swarp 0 0")
 
-  -- set keymap to us again
-  , ((mod4Mask .|. shiftMask,	xK_m), spawn "~/.xmodStartup")
   ]
   -- Switch workspaces using symbols
   ++ [ ((mod4Mask .|. m, k), windows $ f i)
