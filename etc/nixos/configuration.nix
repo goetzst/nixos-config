@@ -21,6 +21,12 @@
 	};
   };
 
+  fileSystems."/mnt/anime" = {
+  	device 	= "/dev/disk/by-uuid/9CFE36E9FE36BAFA";
+	fsType 	= "ntfs";
+	options	= ["uid=goetzst" "fmask=117" "umask=007" "noatime"];
+  };
+
   hardware.pulseaudio = {
 	enable = true;
 	systemWide = true;
