@@ -72,7 +72,8 @@
 	i3lock
 	openvpn
 	networkmanager_openvpn
-	texlive.combined.scheme-medium
+	(texlive.combine
+	  { inherit (texlive) scheme-full ; })
 	traceroute
 	unzip
   	wget
@@ -123,9 +124,8 @@
 	rtorrent
 	scrot
 	teamspeak_client
-	texstudio
+        texmaker
 	thunderbird
-        #texmaker
 	neovim
 	zathura
 	
