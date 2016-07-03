@@ -11,6 +11,7 @@ sys/
 tmp/
 usr/
 var/
+etc/X11
 etc/adjtime
 etc/asound.conf
 etc/bashrc
