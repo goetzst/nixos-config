@@ -15,8 +15,8 @@
 	cleanTmpDir = true;
   	loader = {
   		#efi stuff
-		gummiboot.enable = true;
-		gummiboot.timeout = 10;
+		systemd-boot.enable = true;
+		timeout = 10;
 		efi.canTouchEfiVariables = true;
 	};
   };
@@ -71,7 +71,7 @@
 	htop
 	i3lock
 	openvpn
-	networkmanager_openvpn
+	#networkmanager_openvpn
 	(texlive.combine
 	  { inherit (texlive) scheme-full ; })
 	traceroute
@@ -84,26 +84,12 @@
 	alsaPlugins
 	alsaUtils
 	pavucontrol
-	youtube-dl
-	mpv
-
-	# browser
-	chromium
-	firefox
 
 	# shell+terminal stuff
 	zsh
 	rxvt_unicode
 
-	# programming
-	#gcc
-	#jdk
-	python3
-
 	# haskell
-	haskellPackages.ghc
-	haskellPackages.cabal-install
-
 	# windowManager
 	haskellPackages.xmobar
 	haskellPackages.xmonad
@@ -174,7 +160,6 @@
 		windowManager.xmonad.enable = true;
 		windowManager.default = "xmonad";
 		desktopManager.default = "none";
-		startOpenSSHAgent = true;
 		displayManager = {
 			slim = {
 				enable = true;
@@ -184,6 +169,7 @@
 	  };
   };
 
+  #programs.ssh.startAgent	= true;
   # user
   # make sure config file is the only place to change users
   #users.mutableUsers = false;
