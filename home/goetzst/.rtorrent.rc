@@ -10,13 +10,13 @@ download_rate = 0
 upload_rate = 50
 
 # downloadDir
-directory = /mnt/anime/film
+directory = /mnt/anime/anime
 
 # session dir
-session = /home/Sotaro/.rtorrent/.session
+session = /home/goetzst/.rtorrent/.session
 
 # watch dir
-schedule = watch_directory,5,5,load_start=/home/Sotaro/Downloads/*.torrent
+schedule = watch_directory,5,5,load_start=/home/goetzst/Downloads/*.torrent
 
 # port stuff
 port_range = 60125-64125
