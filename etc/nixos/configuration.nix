@@ -100,21 +100,6 @@
 	xlibs.xev
 	xlibs.xinput
 	xlibs.xmodmap
-
-	# general purpose software
-	feh
-	imagemagick
-	keepassx2
-	libreoffice
-	octave
-	rtorrent
-	scrot
-	teamspeak_client
-        texmaker
-	thunderbird
-	neovim
-	zathura
-	
   ];
 
   # services:
