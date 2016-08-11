@@ -68,7 +68,6 @@ etc/zoneinfo
 etc/nixos/hardware-configuration.nix
 home/goetzst/.cache
 home/goetzst/.compose-cache
-home/goetzst/.config
 home/goetzst/Desktop
 home/goetzst/.dmenu_cache
 home/goetzst/Documents/
@@ -112,6 +111,7 @@ home/goetzst/.octave_hist
 home/goetzst/.python_history
 home/goetzst/.cabal/
 home/goetzst/.dbus/
+home/goetzst/.vimperator/
 
 home/goetzst/.mozilla/
 !home/goetzst/.mozilla/
@@ -121,3 +121,24 @@ home/goetzst/.mozilla/firefox/*
 !home/goetzst/.mozilla/firefox/9lm3xxgx.default
 home/goetzst/.mozilla/firefox/9lm3xxgx.default/*
 !home/goetzst/.mozilla/firefox/9lm3xxgx.default/prefs.js
+
+home/goetzst/.config/chromium
+home/goetzst/.config/gtk-2.0
+home/goetzst/.config/gtk-3.0
+home/goetzst/.config/htop
+home/goetzst/.config/keepassx
+home/goetzst/.config/libreofficedev
+home/goetzst/.config/mimeapps.list
+home/goetzst/.config/mono.addins
+home/goetzst/.config/nvim
+home/goetzst/.config/pavucontrol.ini
+home/goetzst/.config/Pinta
+home/goetzst/.config/pulse
+home/goetzst/.config/QtProject.conf
+home/goetzst/.config/qutebrowser/bookmarks
+home/goetzst/.config/qutebrowser/quickmarks
+home/goetzst/.config/texstudio
+home/goetzst/.config/Trolltech.conf
+home/goetzst/.config/vimb
+home/goetzst/.config/xm1
+home/goetzst/.config/zathura
