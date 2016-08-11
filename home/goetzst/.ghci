@@ -33,6 +33,7 @@ import Control.Arrow hiding (left, right)
 -- import Data.List.Split
 -- import Data.Bits.Lens
 -- import Control.Exception.Lens
+import Control.Exception
 import Control.Monad
 import "mtl" Control.Monad.Cont
 import "mtl" Control.Monad.Except
