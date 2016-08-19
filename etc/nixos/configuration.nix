@@ -31,6 +31,7 @@
 	enable = true;
 	systemWide = true;
   };
+  hardware.opengl.driSupport32Bit	= true;
 
   nix.gc = {
 	automatic	= true;
@@ -71,9 +72,6 @@
 	htop
 	i3lock
 	openvpn
-	#networkmanager_openvpn
-	(texlive.combine
-	  { inherit (texlive) scheme-full ; })
 	traceroute
 	unzip
   	wget
