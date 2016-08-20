@@ -12,6 +12,7 @@ tmp/
 usr/
 var/
 etc/X11
+etc/kbd
 etc/adjtime
 etc/asound.conf
 etc/bashrc
@@ -112,6 +113,8 @@ home/goetzst/.python_history
 home/goetzst/.cabal/
 home/goetzst/.dbus/
 home/goetzst/.vimperator/
+home/goetzst/.wine/
+home/goetzst/.lesshst
 
 home/goetzst/.mozilla/
 !home/goetzst/.mozilla/
@@ -137,8 +140,9 @@ home/goetzst/.config/pulse
 home/goetzst/.config/QtProject.conf
 home/goetzst/.config/qutebrowser/bookmarks
 home/goetzst/.config/qutebrowser/quickmarks
+home/goetzst/.config/menus/
+home/goetzst/.config/Mumble/
 home/goetzst/.config/texstudio
-home/goetzst/.config/Trolltech.conf
 home/goetzst/.config/vimb
 home/goetzst/.config/xm1
 home/goetzst/.config/zathura
