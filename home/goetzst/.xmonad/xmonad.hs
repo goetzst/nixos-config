@@ -41,7 +41,7 @@ main = do
           spawn "urxvt"
           spawn "urxvt"
           spawn "urxvt"
-          spawn "firefox"
+          spawn "qutebrowser"
           spawn "chromium"
           spawn "thunderbird"
           spawn "ts3client"
@@ -83,7 +83,7 @@ extraKeys =
    -- never terminate X please
   , ((mod4Mask .|. shiftMask,	xK_q), return ())
 
-  , ((mod4Mask,			xK_r), spawn "$(yeganesh -x -- -fn 'Terminus-24' -i -nf '#daccbb' -nb '#0e1112')")
+  , ((mod4Mask,			xK_r), spawn "rofi")
 
    -- lock the screen when not in use
   , ((mod4Mask,			xK_s), spawn "i3lock -i ~/Pictures/hitagi/hitagi_butterfly.png -nt")
