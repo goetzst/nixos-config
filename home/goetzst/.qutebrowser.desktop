@@ -1,0 +1,8 @@
+# original file for ~/.local/share/applications to make qutebrowser defaultbrowser
+[Desktop Entry]
+Encoding=UTF-8
+Version=1.0
+Type=Application
+NoDisplay=true
+Exec=qutebrowser %u
+Name=Qutebrowser
