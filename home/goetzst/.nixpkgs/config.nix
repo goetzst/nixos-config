@@ -21,7 +21,6 @@
                                 pinta
                                 rtorrent
                                 scrot
-                                teamspeak_client
                                 texmaker
                                 thunderbird
                                 zathura
@@ -40,6 +39,7 @@
                 # packages currently manually maintained:
                 # mpv
                 # mumble-1.2.16
+                # teamspeak-client
                 # qt 5
                 # qt5ct
                 # texlive-full  use stable release
