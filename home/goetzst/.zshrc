@@ -39,6 +39,9 @@ alias egrep='egrep -i --color=auto'
 alias lt='ls --sort=time -r'
 alias la='ls -a'
 
+alias streambob='mpv https://www.twitch.tv/guardsmanbob'
+alias streamqt='mpv https://www.twitch.tv/imaqtpie'
+
 #source ~/.aliases
 # Git prompt
 source ~/.git-prompt.sh
