@@ -1,4 +1,5 @@
 {
+        allowUnfree     = true;
         packageOverrides = pkgs_: with pkgs_; {         # pkgs_ is the original set of packages
                 browsers = with pkgs; buildEnv {
                         name    = "browsers";           # browser collection
@@ -20,6 +21,7 @@
                                 pinta
                                 rtorrent
                                 scrot
+                                teamspeak_client
                                 texmaker
                                 thunderbird
                                 zathura
@@ -40,7 +42,6 @@
                 # mumble-1.2.16
                 # qt 5
                 # qt5ct
-                # teamspeak_client
                 # texlive-full  use stable release
                 # youtube-dl
         };
