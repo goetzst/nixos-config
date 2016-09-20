@@ -10,7 +10,7 @@
                         ];
                 };
                 office = with pkgs; buildEnv {
-                        name    = "office";             # collection of programms 'essential' for working
+                        name    = "office";             # collection of programs 'essential' for working
                         paths   = [
                                 feh
                                 imagemagick
