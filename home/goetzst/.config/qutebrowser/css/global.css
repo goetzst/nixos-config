@@ -14,6 +14,10 @@
     color:      #DDCCBB !important;
 }
 
+div [style^="position: absolute"] {
+    background: none !important;
+}
+
 a {
     color: #FFAA0F !important;
 }
