@@ -27,6 +27,7 @@ bindkey -e
 # Custom aliases
 test -r ~/.dircolors && eval "$(dircolors -b ~/.dircolors)" || eval "$(dircolors -b)"
 alias vim='nvim'
+alias aspell='ASPELL_CONF="dict-dir $HOME/.nix-profile/lib/aspell" aspell'
 alias ls='ls --color=auto'
 alias dir='dir --color=auto'
 alias vdir='vdir --color=auto'
