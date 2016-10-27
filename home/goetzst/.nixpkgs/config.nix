@@ -12,6 +12,8 @@
                 office = with pkgs; buildEnv {
                         name    = "office";             # collection of programs 'essential' for working
                         paths   = [
+                                aspell
+                                aspellDicts.en
                                 feh
                                 imagemagick
                                 jabref
@@ -20,7 +22,6 @@
                                 neovim
                                 pinta
                                 rtorrent
-                                scrot
                                 texmaker
                                 thunderbird
                                 zathura
@@ -34,6 +35,11 @@
                                 erlang
                                 ghc
                                 rustc
+                        ];
+                };
+                rEnv  = pkgs_.rWrapper.override {       # install with nix-env -f "<nixpkgs>" -iA rEnv
+                        packages= with pkgs_.pkgs.rPackages;  [
+                          likert reshape ggplot2 RColorBrewer directlabels sqldf plyr
                         ];
                 };
                 # packages currently manually maintained:
