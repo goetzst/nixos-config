@@ -12,6 +12,8 @@ tmp/
 usr/
 var/
 etc/X11
+etc/fonts
+etc/host.conf
 etc/kbd
 etc/adjtime
 etc/asound.conf
@@ -118,6 +120,10 @@ home/goetzst/.lesshst
 home/goetzst/.java/
 home/goetzst/.nox/
 home/goetzst/.weechat/
+home/goetzst/.swt/
+home/goetzst/.eclipse/
+home/goetzst/.aspell.en.prepl
+home/goetzst/.aspell.en.pws
 
 home/goetzst/.mozilla/
 !home/goetzst/.mozilla/
@@ -142,6 +148,7 @@ home/goetzst/.config/pulse
 home/goetzst/.config/QtProject.conf
 home/goetzst/.config/qutebrowser/bookmarks
 home/goetzst/.config/qutebrowser/quickmarks
+home/goetzst/.config/qutebrowser/qsettings
 home/goetzst/.config/qt5ct/colors
 home/goetzst/.config/menus/
 home/goetzst/.config/Mumble/
