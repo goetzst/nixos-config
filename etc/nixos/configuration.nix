@@ -72,6 +72,7 @@
 	htop
 	i3lock
 	openvpn
+	pciutils
 	traceroute
 	unzip
   	wget
