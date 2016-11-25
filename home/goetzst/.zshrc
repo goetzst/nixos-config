@@ -28,6 +28,8 @@ bindkey -e
 test -r ~/.dircolors && eval "$(dircolors -b ~/.dircolors)" || eval "$(dircolors -b)"
 alias vim='nvim'
 alias aspell='ASPELL_CONF="dict-dir $HOME/.nix-profile/lib/aspell" aspell'
+alias startVPN='systemctl start openvpn-ovpn.service'
+alias stopVPN='systemctl stop openvpn-ovpn.service'
 alias ls='ls --color=auto'
 alias dir='dir --color=auto'
 alias vdir='vdir --color=auto'
