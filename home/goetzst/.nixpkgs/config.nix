@@ -5,7 +5,6 @@
                         name    = "browsers";           # browser collection
                         paths   = [
                                 chromium
-                                firefox
                                 qutebrowser
                         ];
                 };
