@@ -83,10 +83,8 @@ extraKeys =
    -- never terminate X please
   , ((mod4Mask .|. shiftMask,	xK_q), return ())
 
-  , ((mod4Mask,			xK_r), spawn "rofi")
-
    -- lock the screen when not in use
-  , ((mod4Mask,			xK_s), spawn "i3lock -i ~/Pictures/hitagi/hitagi_butterfly.png -nt")
+  , ((mod4Mask,			xK_s), spawn "i3lock -i ~/Pictures/hitagi/hitagi_face_shortHair.png -nt")
 
    -- reset the mouse cursor
   , ((mod4Mask,			xK_Escape), spawn "swarp 0 0")

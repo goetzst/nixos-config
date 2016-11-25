@@ -1,6 +1,5 @@
-xrandr --output HDMI-0 --mode 1920x1080
-xrandr --output DVI-1 --pos 1920x312
-feh --bg-fill ~/Pictures/hitagi/hitagi_butterfly.png
+xrandr --output DisplayPort-1 --mode 2560x1440 --pos 1920x0 --rotate normal --output DisplayPort-0 --off --output DVI-1 --mode 1366x768 --pos 4480x672 --rotate normal --output DVI-0 --off --output HDMI-0 --mode 1920x1080 --pos 0x208 --rotate normal
+feh --bg-fill ~/Pictures/hitagi/hitagi_panorama.png
 setxkbmap us
 xmodmap -e "clear Lock"
 xmodmap -e "keycode 66 = Caps_Lock NoSymbol Caps_Lock"
