@@ -1,6 +1,16 @@
 ::-webkit-scrollbar {
     width: 0px;
-    height 0px;
+    height: 0px;
+}
+
+html > body[style="margin: 0px"] > img[style="-webkit-user-select:none; display:block; margin:auto;"],
+html > body[style="margin: 0px"] > img[style="-webkit-user-select: none; display: block; margin: auto;"] {
+    position: absolute !important;
+    margin: auto !important;
+    top: 0px !important;
+    left: 0px !important;
+    right: 0px !important;
+    bottom: 0px !important;
 }
 
 * {
@@ -14,16 +24,20 @@
     color:      #DDCCBB !important;
 }
 
-div [style^="position: absolute"] {
+img {
     background: none !important;
 }
 
-a {
+a[href], a[href] * {
     color: #FFAA0F !important;
 }
 
-a:visited {
+a:visited, a:visited * {
     color: #FF5D4A !important;
+}
+
+code, pre {
+    background-color: #111 !important;
 }
 
 span.qutehint {
@@ -44,12 +58,86 @@ span.qutehint > font {
     width: 80% !important;
 }
 
-.container {
+.new-discussion-timeline, .experiment-repo-nav {
     width: 90% !important;
+}
+
+/* For 4chan */
+
+div.adg-rects {
+    display: none !important;
+}
+
+div#quickReply textarea {
+    width: 550px !important;
+    height: 500px !important;
+}
+
+span.quote {
+    color: #789922 !important;
+}
+
+span.sjis, #quickReply .sjis {
+    font-family: 'IPAMonaPGothic','Mona','MS PGothic',monospace !important;
+}
+
+s, s a:not(:hover) {
+    color: #333 !important;
+    background: #333 !important;
+}
+
+s:hover, s:focus, s:hover a, s:hover span {
+    color: white !important;
+    background: black !important;
+}
+
+div.postContainer > div.post > div.file {
+    width: 800px !important;
+}
+
+span.nameBlock > span.n-pu {
+    background: url('https://s.4cdn.org/image/minileaf.gif') !important;
+}
+
+input#qrFile {
+    width: 60% !important;
+}
+
+body.is_thread > iframe {
+    display: none !important;
 }
 
 /* TeX images */
 
-img.tex, img.numberedequation, img.inlineformula {
-    background-color: white !important;
+img.tex, img.numberedequation, img.inlineformula, span.math,
+img.mwe-math-fallback-image-inline {
+    background-color: #bbb !important;
+    padding: 1px !important;
+}
+
+span.math * {
+    background: none !important;
+    border-color: black !important;
+}
+
+/* For devtalk.nvidia.com */
+
+div.widget-100 > div.board-topics > div.topic {
+    overflow: hidden !important;
+}
+
+/* For wikipedia */
+
+div[style^="position: absolute"] {
+    background: none !important;
+}
+
+/* Ad element hiding */
+
+div#_Ltg { /* google search results */
+    display: none !important
+}
+
+div.pyv-afc-ads-container { /* youtube search results */
+    display: none !important
 }
