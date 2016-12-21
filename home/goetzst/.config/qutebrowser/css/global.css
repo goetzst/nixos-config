@@ -52,6 +52,11 @@ span.qutehint > font {
     color: #e51688 !important;
 }
 
+/* gitlab icon fix */
+div.note-actions > a > * {
+    font-family: FontAwesome !important;
+}
+
 /* For github stuff */
 
 .discussion-timeline {
