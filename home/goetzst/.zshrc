@@ -78,7 +78,7 @@ zle -N self-insert url-quote-magic
 WORDCHARS=${WORDCHARS/\/}
 
 # Environment vars
-export PATH=$HOME/bin:/usr/local/bin:$PATH
+export PATH=$HOME/bin:/usr/local/bin:$HOME/.local/bin:$PATH
 export PATH=$PATH:$HOME/.local/bin
 export EDITOR=vim
 export DARCS_DO_COLOR_LINES=1

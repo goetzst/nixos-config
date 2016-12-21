@@ -85,7 +85,7 @@ let g:multi_cursor_quit_key='<Esc>'
 let NERDTreeShowHidden=1
 
 " settings
-set cc=120
+set cc=110
 set number
 set numberwidth=1
 set mouse=
