@@ -29,7 +29,6 @@
                 programming = with pkgs; buildEnv {
                         name    = "programming";        # compiler collection
                         paths   = [
-                                cabal-install
                                 elixir
                                 erlang
                                 ghc
@@ -42,12 +41,28 @@
                         ];
                 };
                 # packages currently manually maintained:
-                # mpv
+                # (2016-12-14)λ nix-env -q
+                # arandr-0.1.9
+                # browsers
+                # cloc-1.70
+                # eclipse-modeling-4.6
+                # idea-ultimate-2016.3
+                # jmtpfs-0.5
+                # mpv-0.21.0
                 # mumble-1.2.16
-                # teamspeak-client
-                # qt 5
-                # qt5ct
-                # texlive-full  use stable release
-                # youtube-dl
+                # office
+                # openjdk-8u122b00
+                # pgadmin3-1.22.1
+                # programming
+                # qt-5.7.0
+                # qt5ct-0.24
+                # R-3.2.3-wrapper
+                # stack-1.2.0
+                # teamspeak-client-3.0.19.4
+                # texlive-full
+                # webstorm-2016.3.1
+                # weechat-1.5
+                # youtube-dl-2016.12.12
+
         };
 }

@@ -45,6 +45,11 @@ alias la='ls -a'
 alias streambob='mpv https://www.twitch.tv/guardsmanbob'
 alias streamqt='mpv https://www.twitch.tv/imaqtpie'
 
+alias mpn='mpv -profile normalize'
+alias mpa='mpv -profile audio'
+alias mpr='mpv -profile reverse'
+alias mpra='mpv -profile reverseAudio'
+
 #source ~/.aliases
 # Git prompt
 source ~/.git-prompt.sh
