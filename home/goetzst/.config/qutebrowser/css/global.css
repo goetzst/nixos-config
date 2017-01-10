@@ -52,8 +52,8 @@ span.qutehint > font {
     color: #e51688 !important;
 }
 
-/* gitlab icon fix */
-div.note-actions > a > * {
+/* icon fix */
+i {
     font-family: FontAwesome !important;
 }
 

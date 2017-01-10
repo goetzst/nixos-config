@@ -71,6 +71,8 @@ etc/zoneinfo
 etc/nixos/hardware-configuration.nix
 home/goetzst/.cache
 home/goetzst/.WebStorm*
+home/goetzst/.IntelliJIdea*
+home/goetzst/.m2/
 home/goetzst/.compose-cache
 home/goetzst/Desktop
 home/goetzst/.dmenu_cache
