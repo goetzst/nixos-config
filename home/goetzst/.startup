@@ -5,3 +5,4 @@ xmodmap -e "clear Lock"
 xmodmap -e "keycode 66 = Caps_Lock NoSymbol Caps_Lock"
 xmodmap ~/.Xmodmap
 xset r rate 200 50
+./reds

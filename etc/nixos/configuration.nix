@@ -33,10 +33,7 @@
   };
   hardware.opengl.driSupport32Bit	= true;
 
-  nix.gc = {
-	automatic	= true;
-	dates		= "2 weeks";
-  };
+  nix.useSandbox = true;
   
   # networking stuff
   networking = {

@@ -41,6 +41,7 @@ alias egrep='egrep -i --color=auto'
 
 alias lt='ls --sort=time -r'
 alias la='ls -a'
+alias ll='ls -al'
 
 alias streambob='mpv https://www.twitch.tv/guardsmanbob'
 alias streamqt='mpv https://www.twitch.tv/imaqtpie'
@@ -48,7 +49,9 @@ alias streamqt='mpv https://www.twitch.tv/imaqtpie'
 alias mpn='mpv -profile normalize'
 alias mpa='mpv -profile audio'
 alias mpr='mpv -profile reverse'
+alias mprn='mpv -profile reverse --no-resume-playback'
 alias mpra='mpv -profile reverseAudio'
+alias mpran='mpv -profile reverseAudio --no-resume-playback'
 
 #source ~/.aliases
 # Git prompt

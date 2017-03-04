@@ -129,6 +129,8 @@ home/goetzst/.aspell.en.prepl
 home/goetzst/.aspell.en.pws
 home/goetzst/.pgadmin3
 home/goetzst/.stack
+home/goetzst/.reds
+home/goetzst/.icons
 home/goetzst/music
 home/goetzst/Papers
 home/goetzst/currentSemester
@@ -164,3 +166,8 @@ home/goetzst/.config/texstudio
 home/goetzst/.config/vimb
 home/goetzst/.config/xm1
 home/goetzst/.config/zathura
+home/goetzst/.config/canto/curses-log
+home/goetzst/.config/canto/daemon-log
+home/goetzst/.config/canto/feeds
+home/goetzst/.config/canto/pid
+home/goetzst/.config/canto/plugins/
